@@ -128,16 +128,16 @@ programa {
    escreva("---FINAL: O Templo do Trono---\n")
    escreva("Você entra no Templo... onde o trono dos deuses está vazio aguardando por você.\n")
    escreva("Porém, um Guardião bloqueia o seu caminho.\n")
-   se(divindade>=3 e fe>1){
+   se(divindade>=3 e fe>=1){
     escreva("\nFINAL DIVINO: Usando todo o seu poder você vence com facilidade e assume o trono, tornando-se um novo deus justo e poderoso.\n")
     escreva("Durante sua jornada, você conseguiu obter ",divindade," pontos de divindade✨.")
    }
-    se(divindade>=3 e fe<1){
+    se(divindade>=3 e fe<=1){
     escreva("\nFINAL CORROMPIDO: Você vence a luta, mas por falta de fé você se torna um deus cruel e temido.\n")
     escreva("Durante sua jornada, você conseguiu obter ",divindade," pontos de divindade✨.")
     escreva("Durante sua jornada, você conseguiu obter ",fe," pontos de fé🙏.")
    }
-   se(fe>=3 e divindade<2){
+   se(fe>=3 e divindade<=2){
     escreva("\nFINAL SÁBIO: Você não luta, decide renunciar o trono e se tornar um guia espiritual.\n")
     escreva("Durante sua jornada, você conseguiu obter ",fe," pontos de fé🙏.")
    }
