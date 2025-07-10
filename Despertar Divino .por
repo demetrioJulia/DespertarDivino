@@ -11,7 +11,7 @@ programa {
     }
     enquanto(jogarNovamente=="n")
     escreva ("=== O DESPERTAR DIVINO ===\n")
-    escreva("\nVocê desperta de um sonho estranho, quando abre os olhos se depara com um templo em ruínas ao seu redor.\n")
+    escreva("\nVocê desperta de um sonho estranho, quando abre os olhos se depara com um grande templo em ruínas ao seu redor.\n")
     escreva("\nUma voz distante ecoa: ")
     escreva("\n'—Acorde, reencarnação... O mundo precisa de Você'\n")
 
