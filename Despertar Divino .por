@@ -137,7 +137,7 @@ programa {
     escreva("Durante sua jornada, você conseguiu obter ",divindade," pontos de divindade✨.")
     escreva("Durante sua jornada, você conseguiu obter ",fe," pontos de fé🙏.")
    }
-   se(fe>=3 e divindade<=2){
+   se(fe>=3 e divindade>=0){
     escreva("\nFINAL SÁBIO: Você não luta, decide renunciar o trono e se tornar um guia espiritual.\n")
     escreva("Durante sua jornada, você conseguiu obter ",fe," pontos de fé🙏.")
    }
